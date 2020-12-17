@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head>
-     <!-- Required meta tags -->
+
+<head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet" type="text/css" /> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Apply as a deliverer Now!</title>
-  </head>
-  <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Grabsupper <i class="fas fa-motorcycle"></i></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+</head>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item ">
-        <a class="nav-link" href="index.html">Menu</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about-us.html">About Us</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="forms.html">Apply now as a deliverer <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact-us.html">Contact Us</a>
-      </li>
-      <!-- <li class="nav-item dropdown">
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Grabsupper <i class="fas fa-motorcycle"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about-us.html">About Us</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="forms.html">Apply now as a deliverer <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                </li>
+                <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown
         </a>
@@ -45,58 +52,71 @@
       <li class="nav-item">
         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
       </li> -->
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-    <form id="forms">
-  <!-- normal text -->
-  <h3>
-  Apply as a deliverer now!
-  </h3>
-  <div>
-    <label for="name">Name :</label>
-    <input name="username" type="text"  placeholder="Enter your username" value=""/><br>
-    <label for="email">Email :</label>
-    <input type="email" name ="email"
-    placeholder="Email" required >  
-  </div>
-   <div>
-    <label for="handphone">Handphone No :</label>
-    <input name="handphone" type="text"  placeholder="Handphone No" value=""/><br> 
-  </div>
-  <!-- radio button -->
-  <div>
-    <label for="gender">Gender :</label>
-    <input name="gender" type="radio" value="male" >Male
-    <input name="gender" type="radio" value+"female">Female
-  </div>
-<!-- checkbox input  -->
-<div>
-  <label for="mode of transport">Mode of transport :</label><br>
-  <input name="mode of transport" type="radio" value="walking" >Walking
-  <input name="mode of transport" type="radio" value="cycling">Cycling
-  <input name="hobbies" type="radio" value="Motorcycle">Motorcycle
-</div>
-<!-- dropdown select -->
-<select shift="shift">
-  <option value="not-selected">-- Please choose your shift --</option>
-  <option value="morning">Morning</option>
-  <option value="afternoon">Afternoon</option>
-  <option value="night">Night</option>
-</select>
-<!-- submit button -->
-<input type="submit">
-</form>
-<!-- Optional JavaScript -->
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="formpadding">
+        <form id="forms">
+            <!-- normal text -->
+            <h3>
+                Apply as a deliverer now!
+            </h3>
+            <div>
+                <label for="name">Name :</label>
+                <input name="username" type="text" placeholder="Enter your name" value="" /><br>
+                <label for="email">Email :</label>
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div>
+                <label for="handphone">Handphone No :</label>
+                <input name="handphone" type="text" placeholder="Handphone No" value="" /><br>
+            </div>
+            <!-- radio button -->
+            <div>
+                <label for="gender">Gender :</label>
+                <input name="gender" type="radio" value="male">Male
+                <input name="gender" type="radio" value+"female">Female
+            </div>
+            <!-- checkbox input  -->
+            <div>
+                <label for="mode of transport">Mode of transport :</label><br>
+                <input name="mode of transport" type="radio" value="walking">Walking
+                <input name="mode of transport" type="radio" value="cycling">Cycling
+                <input name="hobbies" type="radio" value="Motorcycle">Motorcycle
+            </div>
+            <!-- dropdown select -->
+            <select shift="shift">
+                <option value="not-selected">-- Please choose your shift --</option>
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="night">Night</option>
+            </select>
+            <!-- submit button -->
+            <input type="submit">
+
+        </form>
+        <div id="delivery" class="border text-center p-3">
+            <img src="images/deliveryman2.png"  alt="">
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <script src="script.js"></script>
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
