@@ -1,0 +1,66 @@
+h3{
+  text-align: center;
+  background: white;
+}
+h4{
+  text-align: center;
+}
+.parent{
+ display: flex;
+}
+main{
+  /* height: 200vh; */
+  background-image: url("../image/background2.jpg");
+
+  /* height: 100%;
+  width: 100%;
+  background-size:  cover; */
+  
+}
+/* #hero-image{
+  background-image: url("../images/heroimage.jpg");
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+} */
+screen-siz {
+
+}
+body {
+  background-image: url('images/background2.jpg');
+  background-repeat: no-repeat;
+  background-size: 3000px 1000px;
+}
+#background.jpg{
+  opacity: 0.2;
+}
+
+/* @media screen and (min-width:768px){
+  body{
+  background-image: url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 18000px 12000px;
+  }
+} */
+/* @media screen and (min-width:900px){
+  body{
+    background: orange;
+  }
+}
+@media screen and (min-width: 1080px){
+  body{
+    background-image: url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 18000px 12000px;
+  }
+}
+   */
+   #forms{
+     text-align: center;
+   }
+   #operating{
+     text-align: center;
+   }
